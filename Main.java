@@ -41,7 +41,7 @@ String name;
 String author; 
 int price; 
 int numPages;
-
+System.out.println("Enter number of books");
 n = s.nextInt(); //read no. of books
 Books b[];
 b = new Books[n];
