@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+class PrintInfo {
+   static void print() {
+        System.out.println("Name: Kavana M A");
+        System.out.println("USN: 1BM23CS145");
+    }
+}
+
 class Books {
     String name;
     String author;
@@ -25,6 +32,8 @@ return name + author + price + numPages;
 
 class Main{
 public static void main(String args[]){
+
+PrintInfo.print();
 
 Scanner s = new Scanner(System.in);
 int n;
