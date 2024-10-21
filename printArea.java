@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+class PrintInfo {
+   static void print() {
+        System.out.println("Name: Kavana M A");
+        System.out.println("USN: 1BM23CS145");
+    }
+}
+
 abstract class Shape{
 double a,b,result;
 
@@ -38,6 +45,7 @@ System.out.println(result+" sq units");
 
 class printArea{
 public static void main(String args[]){
+PrintInfo.print();
 Rectangle r=new Rectangle();
 Triangle t=new Triangle();
 Circle c=new Circle();
