@@ -152,6 +152,7 @@ System.out.println("Enter customer name:");
                     case 2:
                         System.out.print("Enter the withdrawal amount: ");
                         double withdrawalAmount = sc.nextDouble();
+                        currentAccount.checkMinBalance();
                         currentAccount.withdraw(withdrawalAmount);
                         break;
                     case 3:
